@@ -7,10 +7,19 @@
 </head>
 <body>
     <!-- Form tag is used to take user input 
-     # inside the action is used to refer to the same page after submit button clicked.
-      fieldset is used to provide the border to the form
+     1. # inside the action is used to refer to the same page after submit button clicked.
+     2. fieldset is used to provide the border to the form
         Inside the fieldset to give name to form we use the tag <lengend></lengend>
         
+        Q. Why <label> is used instea of the <p> in form.
+            1. The label is used to associate the text of label with the input box.
+            2. label contain one attribute "for" if we set the same name in "for" and same name for the "id" of the input field, then when we click to the label it will automatically move cursor to that input box.
+            3. basically we are associating the text of label with the input.
+
+        Q. What is main difference between the registeration form and the application form.
+            registeration form have very less information for the filling and usually takes very less time.
+            while,
+            In application form we have to write information in details.
         -->
     <form action="#">
         <!-- to provide proper border -->
@@ -19,17 +28,17 @@
         <legend>Registeration Form</legend>
 
         <label for="Name">Name</label>
-        <input type="text" name="Name">
+        <input type="text" id="Name">
 
         <br><br>
 
         <label for="EmailID">Email ID</label>
-        <input type="EmailID" name="" id="">
+        <input type="email" name="" id="EmailID">
 
         <br><br>
 
         <label for="Contact">Contact</label>
-        <input type="tel" name="contact">
+        <input type="tel" id="Contact">
         
         <br><br>
         <button type="submit">Submit</button>
