@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    1. <table> : represent the table.
+        1. to create the row we use <tr></tr>
+        2. to set the data in particular row we use <td></td>     --
+        3. to set heading we use <th></th> (bold)                      -- +
+    
+        ## Attributes ##
+            1. rules  (rules for the border): Rules for applying border ex. if i want line only for column or row. for row : rows, for column : cols, for all : all border.
+            2. border : to set the border.
+            3. cellpadding : adding extra space between the content and cell.
+            4. cellspacing : to give spacing between the cell.
+            5. colspan : to merge the two column.
+            6. rowspan : to merge the two row.
+
+        --> 
+    <table border="1px" rule="all" cellpadding="5px" cellspacing="5px">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            
+        </tr>
+        
+        <tr>
+            <td rowspan="2">01</td>
+            <td>ABC</td>
+            
+        </tr>
+        <tr>
+            <td>XYZ</td>
+        </tr>
+    </table>
+
+    
+    <!-- 2. <li> : list is the collection of item.
+
+            ##There are three types of list.
+                1. ORDERED LIST / NUMBER LIST. <ol>
+                    Attribute :
+                        1. type : to set the type number, roman, or alphabet.
+                        2. start : to specify the starting
+
+                2. UN-ORDERED LIST / BULLETED LIST.   <ul>
+                3. DEFINITION LIST.  <dl>
+     -->
+               
+     <!-- ordered list -->
+      <h3>Ordered List</h3>
+     <ol type="a" start="19">
+        <li>Samsung</li>
+        
+        <li>Apple</li>
+
+        
+        <li>Xiaomi</li>
+
+        
+        <li>Poco</li>
+
+        <li>Moto</li>
+     </ol>
+
+     <!-- unordered list -->
+           <h3>Un-Ordered List</h3>
+
+     <ul type="square">
+
+        <li>Samsung</li>
+        
+        <li>Apple</li>
+
+        
+        <li>Xiaomi</li>
+
+        
+        <li>Poco</li>
+
+        <li>Moto</li>
+     </ul>
+
+    <h3>Definition List</h3>
+    <dl>
+       <dt>Samsung</dt>
+        <dd>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, velit?
+        </dd>
+
+        <dt>Apple</dt>
+        <dd>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, harum.
+        </dd>
+
+        <dt>Moto</dt>
+        <dd>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, a!
+        </dd>
+    </dl>
+
+
+    <dl>
+  <details>
+    <summary><dt>India</dt></summary>
+    <img src="./task/Flag_of_India.svg.png"> 
+    <dd>
+        
+    India, country that occupies the greater part of South Asia. It is made up of 2states and eight union territories, and its national capital is New Delhi, builin the 20th century just south of the historic hub of Old Delhi to serve aIndia’s administrative center. Its government is a constitutional republic tharepresents a highly diverse population consisting of thousands of ethnic groupand hundreds of languages. India became the world’s most populous country i2023, according to estimates by the United Nations.
+
+        
+    </dd>
+</dl>
+</body>
+</html>
