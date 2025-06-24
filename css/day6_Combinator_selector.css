@@ -1,0 +1,21 @@
+/* Descendent combinator selector */
+div p{
+    color: red;
+}
+
+/* child selector */
+div > p{
+    background-color:bisque;
+}
+
+/* Adjecent sibling
+    p after the div
+*/
+div+p{
+    color: red;
+}
+
+/* General sibling (all sibling of the div) */
+div~p{
+    background-color: blue;
+}

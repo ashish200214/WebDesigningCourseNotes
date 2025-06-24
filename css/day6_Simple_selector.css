@@ -1,0 +1,20 @@
+/* class selector */
+.c11{
+    color: blueviolet;
+    background-color: aquamarine;
+}
+
+/*element selector */
+span{
+    color: cadetblue;
+}
+
+/* Grouping selector */
+.c11,#p1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Universal selector */
+*{
+    background-color: aqua;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator selector</title>
+    <link rel="stylesheet" href="../css/day6_Combinator_selector.css">
+</head>
+<body>
+<!-- Type of Combinator selector
+    1. Descendent Combinator Selector : 
+        Descendent combinator selector denoted by space. 
+        It is used to target direct as well as indirect child.
+    2. Child Combinator selector :
+        Which is used to target only direct children.
+        and it is denoted by ">" symbol.
+    3. Adjecent Sibling Combinator selector : which is used to target first sibling element.
+    4. General sibling combinator selector : used to target all sibling.
+        And denoted by ~ (tild).
+     -->
+    <div>
+
+    <p>Para 1</p>   Direct Child
+    <h1>
+        <p>Para 2</p>  
+        <!-- Indirect child -->
+     </h1>
+    <p>Para 3</p>  
+    <!-- Direct Child -->
+    <p>Para 4</p>  
+    <!-- Direct Child -->
+    </div>
+    <p>Sibling of the div (Adjecent because it is just after the div)</p>
+    <!-- sibling of the div is p  adjecent sibling-->
+
+    <!-- general sibling -->
+    <p>
+        I am General sibling.
+    </p>
+</body>
+</html>
