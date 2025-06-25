@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        button:hover{
+            color: red;
+        }
+        #clicked:active{
+            background-color: black;
+            color: white    ;
+        }
+
+        input:focus{
+            box-shadow: 10px 10px 10px 10px  red;
+        }
+
+        #checkbox:checked{
+            box-shadow: 10px 10px 10px 10px  red;
+
+        }
+        p:nth-child(2){
+            color: red;
+        }
+
+        p:first-child{
+            color: blue;
+        }
+
+        a:visited{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- :hover -->
+    <button>Hello</button>
+
+    <br><br>
+
+    <!-- :active -->
+    <button id="clicked">Hello Active</button>
+
+    <br><br>
+    <!-- :focus -->
+     <input type="text" placeholder="Enter your name">
+
+     <br><br>
+
+     <input id="checkbox" type="checkbox" name="" id="">C
+
+     <div>
+        <p>p1</p>
+        <p>p2</p>
+        <p>p3</p>
+     </div>
+
+     <a href="visit">Visited</a>
+</body>
+</html>
