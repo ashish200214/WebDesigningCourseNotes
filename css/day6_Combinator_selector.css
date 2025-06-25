@@ -19,3 +19,7 @@ div+p{
 div~p{
     background-color: blue;
 }
+
+p{
+    color: red;
+}

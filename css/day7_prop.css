@@ -1,0 +1,47 @@
+/* Text properties */
+p{
+    color: chocolate;
+    /* starting of the paragraph (from where we have to start) */
+    text-indent: 400px;  
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    /* capital small capitalize */
+    text-transform: capitalize;
+}
+
+h1{
+    /* only text alignment */
+    text-align: center;
+    text-shadow: 10px 20px 5px red; 
+    /* horizontal vertical blur color(optional) */
+
+    /* font-properties */
+    font-style: italic;
+    font-size: 50px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-weight: lighter;
+    font-variant:small-caps 
+    /* didnt understand */
+}
+/* background properties */
+section{
+    background-image: url("../HTML/images/premium_photo-1661889099855-b44dc39e88c9.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    /* content will be scrolled the background image is fixed. */
+    
+}
+
+
+div{
+    background-image: url("https://cdn.pixabay.com/photo/2024/03/25/16/36/ladybug-8655134_1280.jpg"),url("https://cdn.pixabay.com/photo/2024/12/12/09/50/animals-9262355_1280.jpg");
+
+    height: 90vh;
+    width: 100%;
+    /* More than one image combine we use  */
+    background-blend-mode: hard-light;
+}

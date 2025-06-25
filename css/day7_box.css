@@ -1,0 +1,18 @@
+img{
+    height: 200px;
+    font-weight: 400px;
+    border-style: double;
+    border-color: crimson;
+    border-radius: 50px;
+    float: right;
+    margin: 800;
+    /* 0.1 -> 0.9 to blur the image */
+    /* opacity: 0.5; */
+
+    box-shadow: 10px 10px 10px 10px red;
+}
+
+h1:hover{
+    background-color: brown;
+    color: white;
+}
