@@ -28,4 +28,19 @@ img{
     height: auto;
 }
 
+article{
+    display: inline-block;
+    
+}
 
+body{
+    margin: 0px;
+}
+
+#sec1{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    width: 50%;
+    gap: 5px;
+}
