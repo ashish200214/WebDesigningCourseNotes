@@ -1,27 +1,101 @@
+body{
+    margin: 1px auto;
+    background-color: black;
+}
 .box{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border: 1px solid black;
-    animation-name: boxanimation;
-    animation-duration:1s;
+    animation-name: boxanimation1;
+    animation-duration:2s;
     animation-iteration-count: infinite;
-    
     background-color: red;
+    margin: 1px auto;
+    /* border: 1px solid black; */
+    text-align: center;
+    color: white;
+}
 
+.parent{
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 90vh;
+    margin: 1px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* keyframe will hold the style at certain time
 basically we can say it is like one function boxanimation which defines the animation and by using the animation-name : we are setting particular animation function to particular HTML element.
 */
-@keyframes boxanimation {
+@keyframes boxanimation1 {
     0%{
-        background-color: red;
-                transform: scale(2,2);
-
-        rotate: 20deg;
-
+        background-image:linear-gradient(red,yellow);
+        /* border-radius: 5px;
+        rotate: 45deg; */
+        transform: translate(-190px,155px);
+        
     }
     25%{
-        background-color: blue;
+        background-image: linear-gradient(blue,orange);
+        border-radius: 10px;
+        transform: scale(2,2);
         
+
+    }
+    50%{
+        background-image: linear-gradient(green,yellow);
+        border-radius: 10px;
+        rotate: 90deg;
+        
+
+    }
+    100%{
+        background-image: linear-gradient(white,blue);
+        rotate: 360deg;
+        border-radius: 80px;
+    }
+    
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    animation-name: boxanimation2;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    background-color: red;
+    margin: 1px auto;
+    text-align: center;
+    color:white;
+    /* border: 1px solid black; */
+
+}
+
+@keyframes boxanimation2{
+        0%{
+        background-image:linear-gradient(red,yellow);
+        /* border-radius: 5px;
+        rotate: 45deg; */
+        transform: translate(185px,150px);
+    }
+    25%{
+        background-image: linear-gradient(blue,orange);
+        border-radius: 10px;
+                transform: scale(2,2);
+
+
+    }
+    50%{
+        background-image: linear-gradient(green,yellow);
+        border-radius: 10px;
+        rotate: 90deg;
+
+    }
+    100%{
+        background-image: linear-gradient(white,blue);
+        border-radius: 80px;
+
+        rotate: 360deg;
     }
 }

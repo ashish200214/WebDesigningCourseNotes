@@ -14,17 +14,30 @@
     Bootstrap is the framework and the library of the html css and js which is used to make the responive webpage.
 
     Bootstrap grid system
-    Allows upto 12 column accross the page
+    Allows upto 12 column accross the page.
     you can use all the 12 column or you can use the column.
     container 
         -> col
     -->
-
+    <div class="container mt-2">
     <div class="row">
-        <div>Div a</div>
-        <div>Div b</div>
-        <div>Div c</div>
-        <div>Div d</div>
+        <div class="col-sm-3 bg-primary ">Div a</div>
+        <div class="col-sm-3 bg-danger" >Div b</div>
+        <div class="col-sm-3 bg-success">Div c</div>
+        <div class="col-sm-3 bg-warning" >Div d</div>
+    </div>
+    <h1 class="text-center mt-5 bg-primary text-white rounded-pill p-3">Form</h1>
+    <form action="" class="form container">
+        <div class="mb-3 form-group">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control">
+        </div>
+
+        <div class="mb-3 form-group">
+            <label for="city" class="form-label">City</label>
+            <input type="text" class="form-control">
+        </div>
+    </form>
     </div>
 </body>
 </html>
