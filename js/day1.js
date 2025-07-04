@@ -1,6 +1,6 @@
 // 
 /**
- * JS is used to functionality to the webpage
+ * JS is used to functionality to the webpage.
  * 
  *   ##  How to link the JS file (see day1.htm):
  *          1. Internal 
@@ -9,8 +9,8 @@
  *      1. console.log()
  *      2. confirm()
  *      3. alert()
- *      4. document.write()
- *      5. document.writeln()
+ *      4. document.write() //removed 
+ *      5. document.writeln()  
  * 
  *   ## input method
  *      1. prompt()
@@ -24,7 +24,7 @@
  *  ## Variable :
  *      1. Name of storage area or memory location.
  *      2. Variable name should be unique.
- *      3. variable name not start the digit, but we can use after one digit. (0-9)
+ *      3. variable name not start the digit, but we can use after one digit. (0-9) 
  *      4. variable should start with letter or the $ or _.
  *      5. Whitespaces is not allowed in the variable name.
  *      6. predefined keyword or keyword cannot  use as variable name. ex. let, var, const, while, for, etc.
@@ -42,6 +42,7 @@
  *              2. We can modify after creation.
  *              3. In non-primitive we can store multiple value.
  *              4. Ex. function, array, object, data, math.
+ *          
  *      
  *        
  *      
@@ -66,4 +67,6 @@ let numbers = 10
 let str = "10"
 console.log(typeof numbers)
 console.log(typeof (numbers+str))
+
+
 
