@@ -105,3 +105,5 @@ switch(dayNo){
     default:
         alert("Please enter no between 1-12")
 }
+
+
