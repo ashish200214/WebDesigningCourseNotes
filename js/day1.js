@@ -36,6 +36,7 @@
  *              1. Primitve data type is immutable.
  *              2. We cannot modify after creation. 
  *              3. In primitive we can store only one value.
+ *              4. means the value is immutable but the variable which is holding it can be changed, thats why it is called immutable.
  *              4. Ex. string, number, boolean, undefined, null
  *          2. non-primitive : 
  *              1. It is mutable.

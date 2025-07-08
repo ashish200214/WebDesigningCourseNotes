@@ -1,0 +1,40 @@
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    width: 99vw;
+    margin: auto;
+    height: 99vh;  
+}
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: orange;
+    border: 1px solid black;
+    text-align: center;
+}
+
+aside{
+    background-color: rgb(211, 141, 141);
+    border: 1px solid black;
+    text-align: center;
+}
+
+.content2{
+    background-color: purple;
+    border: 1px solid black;
+}
+
+.content3{
+    background-color: purple;
+    border: 1px solid black;
+}
+section{
+    background-color: red;
+}
+
+footer{
+    background-color: orange;
+}
