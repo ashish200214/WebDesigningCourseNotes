@@ -1,6 +1,6 @@
 /*
     There is collection of predefined functions : 
-    
+    ready() -method will ensure that the document object will be fully loaded then only start the execution.
 */
 // $(document).ready(()=>{
 //     $("#close").click(()=>{

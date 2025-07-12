@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <style>
+        p{
+            display: none;
+        }
+        #panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+}
+    </style>
+</head>
+<body>
+    <p id="first_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptatum soluta et dicta perspiciatis labore dolores odit esse ratione praesentium.</p>
+    <p id="second_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cumque perferendis quos in, laudantium officia minima ducimus fugit maiores repudiandae cum, saepe recusandae. Rerum, nesciunt a quidem expedita molestias qui.</p>
+    <button id="show">Show</button>
+    <button id="hide">Hide</button>
+    
+    <button id="toggle">Toggle</button>
+
+    <button id="animation-btn">Click here to display animation div</button>
+
+    <div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+<div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+<div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+
+
+<div id="flip">Click to slide up panel</div>
+<div id="panel">Hello world!</div>
+    <script src="./practise_effects.js"></script>
+</body>
+</html>
